@@ -1,0 +1,313 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;
+
+300;600;700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1270px;
+  padding: 0 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1270px;
+  padding: 0 15px;
+}
+
+.homepage #jumbotron {
+  width: 100%;
+  height: 450px;
+}
+
+.homepage #jumbotron img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.homepage #CS {
+  background-color: #222;
+}
+
+.homepage #CS #CS__title {
+  display: inline-block;
+  padding: 10px 20px;
+  transform: translateY(-50%);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #0282FA;
+}
+
+.homepage #CS .CS__series {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.homepage #CS .CS__series .CS__item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: calc(16.6666666667% - 20px);
+  margin: 10px;
+}
+
+.homepage #CS .CS__series .CS__item .CS__img {
+  width: 100%;
+  height: 80%;
+  margin-bottom: 5px;
+}
+
+.homepage #CS .CS__series .CS__item .CS__img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.homepage #CS .CS__series .CS__item .CS__titolo {
+  font-size: 0.6em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.homepage #CS .CS__button {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage #CS .CS__button button {
+  margin: 25px auto 15px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  padding: 10px 55px;
+  background-color: #0282FA;
+  font-weight: 700;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1270px;
+  padding: 0 15px;
+}
+
+#features {
+  background-color: #0282FA;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+#features .container {
+  display: flex;
+  align-items: center;
+}
+
+#features .container ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#features .container .features__item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#features .container .features__item .features__img {
+  width: 50px;
+  height: 60px;
+}
+
+#features .container .features__item .features__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#features .container .features__item .features__title {
+  text-transform: uppercase;
+  margin-left: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+header .header__top {
+  background-color: #0282FA;
+}
+
+header .header__top .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  color: #fff;
+}
+
+header .header__top .container span {
+  font-weight: 600;
+  font-size: 0.6em;
+  margin-left: 50px;
+}
+
+header .header__bottom .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100px;
+  flex-wrap: wrap;
+}
+
+header .header__bottom .container .header__logo {
+  width: 70px;
+}
+
+header .header__bottom .container .header__logo img {
+  width: 100%;
+}
+
+header .header__bottom .container .header__links {
+  text-transform: uppercase;
+}
+
+header .header__bottom .container .header__links a {
+  margin: 0 10px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #888;
+  text-decoration: none;
+}
+
+header .header__bottom .container .header__search input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0282FA;
+  padding: 5px;
+}
+
+footer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+}
+
+footer .footer__top {
+  height: 450px;
+  overflow: hidden;
+}
+
+footer .footer__top .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer__top .container .footer__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer__top .container .footer__links .col {
+  margin-right: 45px;
+  color: #fff;
+}
+
+footer .footer__top .container .footer__links .col ul {
+  list-style: none;
+}
+
+footer .footer__top .container .footer__links .col ul h3 {
+  margin: 25px 0px 10px 0px;
+}
+
+footer .footer__top .container .footer__links .col ul li a {
+  text-decoration: none;
+  color: #888;
+}
+
+footer .footer__top .container .footer__img {
+  width: 600px;
+}
+
+footer .footer__top .container .footer__img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+footer .footer__bottom {
+  background-color: #222;
+  padding: 20px;
+}
+
+footer .footer__bottom .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer__bottom .container .footer__signup button {
+  color: #fff;
+  border: 2px solid #0282FA;
+  padding: 10px 20px;
+  outline: none;
+  background-color: transparent;
+}
+
+footer .footer__bottom .container .footer__socials {
+  display: flex;
+  align-items: center;
+  color: #0282FA;
+}
+
+footer .footer__bottom .container .footer__socials img {
+  width: 30px;
+  aspect-ratio: 1;
+  margin-left: 15px;
+}
+
